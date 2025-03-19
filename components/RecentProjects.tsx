@@ -30,7 +30,7 @@ const RecentProjects = () => {
                 >
                   <Image src="/bg.png" alt="bgimg" />
                 </div>
-                <Image
+                <img
                   src={item.img}
                   alt="cover"
                   className="z-10 absolute bottom-0"
