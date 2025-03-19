@@ -36,7 +36,8 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          ©2025 Rizky Adilal. All Right Reserved
+          <span className="text-purple">©2025 Rizky Adilal.</span> All Right
+          Reserved
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
