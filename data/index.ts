@@ -188,7 +188,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Freelance UI Designer",
-    desc: "Designing a user-friendly e-commerce site for an individual business to boost sales and visibility.",
+    desc: "Creating a sleek, intuitive online store for a solo entrepreneur to grow revenue and reach.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
