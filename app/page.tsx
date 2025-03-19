@@ -1,15 +1,18 @@
 "use client";
 
 import { navItems } from "@/data";
+import dynamic from "next/dynamic";
 
 import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
 import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+
+// Muat Grid secara dinamis tanpa SSR
+const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
 
 const Home = () => {
   return (
